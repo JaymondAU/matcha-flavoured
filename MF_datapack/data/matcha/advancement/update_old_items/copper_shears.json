@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"has_primary_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:shears",
+						"components": {
+							"minecraft:item_model": "minecraft:copper_shears"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"function":	"matcha:update_old_items/copper_shears"
+	}
+}

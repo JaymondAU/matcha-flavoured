@@ -14,7 +14,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.copper_shears"
 			},
-			"minecraft:item_model": "minecraft:copper_shears",
+			"minecraft:item_model": "matcha:copper_shears",
 			"minecraft:repairable": {
 				"items": "minecraft:copper_ingot"
 			}

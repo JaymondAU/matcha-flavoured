@@ -12,7 +12,7 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_model": "minecraft:copper_compass",
+      "minecraft:item_model": "matcha:copper_compass",
       "minecraft:item_name": {
         "translate": "item.kleispack.copper_compass"
       }
