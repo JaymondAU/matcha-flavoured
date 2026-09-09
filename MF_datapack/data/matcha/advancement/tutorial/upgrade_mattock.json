@@ -25,16 +25,16 @@
 				"recipe_id": "matcha:smithing/shakudo_mattock"
 			}
 		},
-		"bronze_dolabra": {
+		"hepatizon_dolabra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_dolabra"
+				"recipe_id": "matcha:smithing/hepatizon_dolabra"
 			}
 		},
-		"bronze_mattock": {
+		"hepatizon_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_mattock"
+				"recipe_id": "matcha:smithing/hepatizon_mattock"
 			}
 		},
 		"electrum_mattock": {
@@ -78,8 +78,8 @@
 		[
 			"shakudo_mattock",
 			"shakudo_dolabra",
-			"bronze_dolabra",
-			"bronze_mattock",
+			"hepatizon_dolabra",
+			"hepatizon_mattock",
 			"steel_dolabra",
 			"steel_mattock",
 			"electrum_dolabra",

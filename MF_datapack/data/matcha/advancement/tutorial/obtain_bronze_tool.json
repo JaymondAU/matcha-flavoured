@@ -1,76 +1,76 @@
 {
 	"parent": "matcha:tutorial/obtain_smithing_table",
 	"criteria": {
-		"bronze_axe": {
+		"hepatizon_axe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_axe"
+				"recipe_id": "matcha:smithing/hepatizon_axe"
 			}
 		},
-		"bronze_pickaxe": {
+		"hepatizon_pickaxe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_pickaxe"
+				"recipe_id": "matcha:smithing/hepatizon_pickaxe"
 			}
 		},
-		"bronze_shovel": {
+		"hepatizon_shovel": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_shovel"
+				"recipe_id": "matcha:smithing/hepatizon_shovel"
 			}
 		},
-		"bronze_hoe": {
+		"hepatizon_hoe": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_hoe"
+				"recipe_id": "matcha:smithing/hepatizon_hoe"
 			}
 		},
-		"bronze_sword": {
+		"hepatizon_sword": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_sword"
+				"recipe_id": "matcha:smithing/hepatizon_sword"
 			}
 		},
-		"bronze_dolabra": {
+		"hepatizon_dolabra": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_dolabra"
+				"recipe_id": "matcha:smithing/hepatizon_dolabra"
 			}
 		},
-		"bronze_mattock": {
+		"hepatizon_mattock": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_mattock"
+				"recipe_id": "matcha:smithing/hepatizon_mattock"
 			}
 		},
-		"bronze_helmet": {
+		"hepatizon_helmet": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_helmet"
+				"recipe_id": "matcha:smithing/hepatizon_helmet"
 			}
 		},
-		"bronze_chestplate": {
+		"hepatizon_chestplate": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_chestplate"
+				"recipe_id": "matcha:smithing/hepatizon_chestplate"
 			}
 		},
-		"bronze_leggings": {
+		"hepatizon_leggings": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_leggings"
+				"recipe_id": "matcha:smithing/hepatizon_leggings"
 			}
 		},
-		"bronze_boots": {
+		"hepatizon_boots": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_boots"
+				"recipe_id": "matcha:smithing/hepatizon_boots"
 			}
 		},
-		"bronze_spear": {
+		"hepatizon_spear": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "matcha:smithing/bronze_spear"
+				"recipe_id": "matcha:smithing/hepatizon_spear"
 			}
 		}
 	},
@@ -87,7 +87,7 @@
 		],
 		"icon": {
 			"components": {
-				"minecraft:item_model": "matcha:bronze_pickaxe"
+				"minecraft:item_model": "matcha:hepatizon_pickaxe"
 			},
 			"count": 1,
 			"id": "minecraft:wooden_pickaxe"
@@ -100,18 +100,18 @@
 	},
 	"requirements": [
 		[
-			"bronze_axe",
-			"bronze_pickaxe",
-			"bronze_shovel",
-			"bronze_hoe",
-			"bronze_sword",
-			"bronze_dolabra",
-			"bronze_mattock",
-			"bronze_helmet",
-			"bronze_chestplate",
-			"bronze_leggings",
-			"bronze_boots",
-			"bronze_spear"
+			"hepatizon_axe",
+			"hepatizon_pickaxe",
+			"hepatizon_shovel",
+			"hepatizon_hoe",
+			"hepatizon_sword",
+			"hepatizon_dolabra",
+			"hepatizon_mattock",
+			"hepatizon_helmet",
+			"hepatizon_chestplate",
+			"hepatizon_leggings",
+			"hepatizon_boots",
+			"hepatizon_spear"
 		]
 	],
 	"rewards": {
