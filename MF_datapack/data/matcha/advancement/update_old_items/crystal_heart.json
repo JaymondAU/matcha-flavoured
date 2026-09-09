@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"has_primary_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:poisonous_potato",
+						"components": {
+							"minecraft:item_model": "minecraft:heart_container"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_primary_material"
+		]
+	],
+	"rewards": {
+		"function":	"matcha:update_old_items/crystal_heart"
+	}
+}
