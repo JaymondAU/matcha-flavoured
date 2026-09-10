@@ -12,7 +12,7 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.trade.bulk_terracotta"
 			},
-			"minecraft:item_model": "minecraft:terracotta",
+			"minecraft:item_model": "matcha:bulk_terracotta",
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.trade.bulk_terracotta.desc",
