@@ -2,6 +2,9 @@
 function matcha:environmental/load_day_cycle_extender
 function matcha:setup/scoreboard
 
+# Repair missing/invalid Hearts scores without applying already-inflated scores to the health bar
+execute as @a unless score @s Hearts matches 6..60 run function matcha:mechanic/heart_container/set_max_hp
+
 # Print information to players
 tellraw @a {"bold":false,"color":"#65E082","translate":"log.kleispack.now_loaded","with":["1.12.1"]}
 tellraw @a {"bold":false,"color":"#8fb398","translate":"log.kleispack.now_loaded.desc"}
