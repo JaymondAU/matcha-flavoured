@@ -1,5 +1,5 @@
 {
-  "parent": "main:adventure/trade_with_cartographer",
+  "parent": "matcha:with_songs/trade_with_cartographer",
   "criteria": {
     "primary_requirement": {
       "trigger": "minecraft:inventory_changed",

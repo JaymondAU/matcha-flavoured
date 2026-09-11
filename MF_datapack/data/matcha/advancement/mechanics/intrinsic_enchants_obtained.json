@@ -1,5 +1,5 @@
 {
-	"parent": "main:mechanics/root",
+	"parent": "matcha:mechanics/root",
 	"criteria": {
 		"obtained_intrinsic_enchants_item": {
 			"conditions": {

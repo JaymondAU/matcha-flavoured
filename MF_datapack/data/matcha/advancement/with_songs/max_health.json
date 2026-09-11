@@ -1,5 +1,5 @@
 {
-	"parent": "main:with_songs/obtain_heart",
+	"parent": "matcha:with_songs/obtain_heart",
 	"criteria": {
 		"get_heart": {
 			"trigger": "minecraft:impossible"

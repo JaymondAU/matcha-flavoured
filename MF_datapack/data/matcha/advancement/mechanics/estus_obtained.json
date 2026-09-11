@@ -1,5 +1,5 @@
 {
-	"parent": "main:mechanics/root",
+	"parent": "matcha:mechanics/root",
 	"criteria": {
 		"has_estus": {
 			"trigger": "minecraft:inventory_changed",

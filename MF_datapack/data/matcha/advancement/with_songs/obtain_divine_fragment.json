@@ -1,5 +1,5 @@
 {
-	"parent": "main:with_songs/obtain_estus",
+	"parent": "matcha:with_songs/obtain_estus",
 	"criteria": {
 		"get_fragment": {
 			"trigger": "minecraft:inventory_changed",

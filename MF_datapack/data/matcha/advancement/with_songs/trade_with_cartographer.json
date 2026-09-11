@@ -1,5 +1,5 @@
 {
-	"parent": "main:with_songs/root",
+	"parent": "matcha:with_songs/root",
 	"criteria": {
 		"cartographer": {
 			"trigger": "minecraft:villager_trade",
