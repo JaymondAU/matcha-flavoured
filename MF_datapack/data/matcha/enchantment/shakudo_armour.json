@@ -4,8 +4,7 @@
 		"minecraft:copper_helmet",
 		"minecraft:copper_chestplate",
 		"minecraft:copper_leggings",
-		"minecraft:copper_boots",
-		"minecraft:elytra"
+		"minecraft:copper_boots"
 	],
 	"anvil_cost": 0,
 	"description": {
@@ -46,8 +45,7 @@
 		"minecraft:copper_helmet",
 		"minecraft:copper_chestplate",
 		"minecraft:copper_leggings",
-		"minecraft:copper_boots",
-		"minecraft:elytra"
+		"minecraft:copper_boots"
 	],
 	"weight": 1
 }
