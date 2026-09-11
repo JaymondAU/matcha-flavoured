@@ -1,5 +1,4 @@
 # Set up functions
-function matcha:environmental/load_day_cycle_extender
 function matcha:setup/scoreboard
 
 # Repair missing/invalid Hearts scores without applying already-inflated scores to the health bar

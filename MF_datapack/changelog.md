@@ -34,6 +34,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Elegy of the Abbey and Crete updated to their new versions
 - Bulk Dirt added to Mason Trade
 - Bulk Blocks now have distinct models
+- Diamond, Amethyst, and Lapis Earrings (They don't do anything but they ARE very cute)
 
 
 

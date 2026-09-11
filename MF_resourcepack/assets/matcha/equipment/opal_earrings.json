@@ -2,7 +2,7 @@
 	"layers": {
 		"humanoid": [
 			{
-				"texture": "minecraft:opal_earrings"
+				"texture": "matcha:opal_earrings"
 			}
 		]
 	}
