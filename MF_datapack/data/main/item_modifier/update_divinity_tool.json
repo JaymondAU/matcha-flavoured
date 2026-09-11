@@ -19,7 +19,7 @@
 		"on_pass": {
 			"function": "minecraft:set_enchantments",
 			"enchantments": {
-				"matcha:adamant_weapon_intrinsic": 1,
+				"matcha:adamant_weapon": 1,
 				"main:divinity": -1
 			},
 			"add": true
@@ -27,7 +27,7 @@
 		"on_fail": {
 			"function": "minecraft:set_enchantments",
 			"enchantments": {
-				"matcha:adamant_tool_intrinsic": 1,
+				"matcha:adamant_tool": 1,
 				"main:divinity": -1
 			},
 			"add": true

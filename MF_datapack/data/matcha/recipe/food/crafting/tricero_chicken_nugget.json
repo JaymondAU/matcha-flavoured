@@ -16,7 +16,7 @@
 		"f": "minecraft:enderman_spawn_egg"
 	},
 	"result": {
-		"id": "matcha:poisonous_potato",
+		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:lore": [
 				{

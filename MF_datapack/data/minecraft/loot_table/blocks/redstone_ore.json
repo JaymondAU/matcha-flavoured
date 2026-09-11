@@ -67,7 +67,10 @@
 										{
 											"function": "minecraft:apply_bonus",
 											"enchantment": "matcha:electrum_tool",
-											"formula": "minecraft:uniform_bonus_count"
+											"formula": "minecraft:uniform_bonus_count",
+											"parameters": {
+												"bonusMultiplier": 1
+											}
 										}
 									],
 									"name": "minecraft:quartz"

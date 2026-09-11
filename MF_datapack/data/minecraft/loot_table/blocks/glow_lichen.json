@@ -10,7 +10,7 @@
 						{
 							"condition": "minecraft:match_tool",
 							"predicate": {
-								"items": "#main:vegetation_mineable"
+								"items": "#matcha:vegetation_mineable"
 							}
 						}
 					],

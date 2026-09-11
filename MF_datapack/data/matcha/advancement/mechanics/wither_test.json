@@ -11,10 +11,10 @@
 	},
 	"requirements": [
 		[
-			"eat_glow_jam"
+			"summoned_wither"
 		]
 	],
 	"rewards": {
-		"summoned_wither": "matcha:test_function_working"
+		"function": "matcha:test_function_working"
 	}
 }

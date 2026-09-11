@@ -15,7 +15,7 @@
 		{
 			"function": "minecraft:set_enchantments",
 			"enchantments": {
-				"matcha:warding_armour": 1,
+				"matcha:electrum_armour": 1,
 				"main:warding_armour": -1
 			},
 			"add": true

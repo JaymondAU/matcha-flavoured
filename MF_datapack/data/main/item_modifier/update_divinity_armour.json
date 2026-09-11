@@ -14,7 +14,7 @@
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
-			"matcha:adamant_armour_intrinsic": 1,
+			"matcha:adamant_armour": 1,
 			"main:divinity": -1
 		},
 		"add": true

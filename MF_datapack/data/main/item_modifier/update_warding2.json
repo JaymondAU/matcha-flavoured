@@ -14,7 +14,7 @@
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
-			"matcha:warding2": 1,
+			"matcha:warding_3": 1,
 			"main:warding2": -1
 		},
 		"add": true

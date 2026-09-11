@@ -158,7 +158,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:enchanted_equipment/sturdy_leather/armour",
+					"value": "matcha:equipment/sturdy_leather/armour",
 					"weight": 15
 				}
 			],

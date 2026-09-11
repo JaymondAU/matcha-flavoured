@@ -14,7 +14,7 @@
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
-			"matcha:sanguine": 1,
+			"matcha:slaughter": 1,
 			"main:sanguine": -1
 		},
 		"add": true

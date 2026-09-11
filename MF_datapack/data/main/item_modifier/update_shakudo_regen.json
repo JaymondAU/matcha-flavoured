@@ -14,7 +14,7 @@
 	"on_pass": {
 		"function": "minecraft:set_enchantments",
 		"enchantments": {
-			"matcha:shakudo_regen": 1,
+			"matcha:shakudo_armour": 1,
 			"main:shakudo_regen": -1
 		},
 		"add": true

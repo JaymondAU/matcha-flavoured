@@ -7,7 +7,7 @@
 				"predicates": {
 					"minecraft:enchantments": [
 						{
-							"enchantments": "matcha:shakudo_regen"
+							"enchantments": "matcha:shakudo_armour"
 						}
 					]
 				}

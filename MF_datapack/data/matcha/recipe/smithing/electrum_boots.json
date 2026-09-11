@@ -69,7 +69,7 @@
 					"id": "minecraft:armor.boots",
 					"amount": 0,
 					"operation": "add_value",
-					"slot": "boots"
+					"slot": "feet"
 				}
 			],
 			"minecraft:tooltip_display": {
