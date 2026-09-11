@@ -1,0 +1,31 @@
+{
+	"anvil_cost": 0,
+	"description": {
+		"translate": "enchantment.kleispack.shakudo_elytra",
+		"color": "#e85e8f"
+	},
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "matcha:enchantment_effects/shakudo_elytra"
+				}
+			}
+		]
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#matcha:enchantable/shakudo_elytra",
+	"weight": 1
+}

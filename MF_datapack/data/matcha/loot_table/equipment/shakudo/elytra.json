@@ -69,7 +69,7 @@
                                 "minecraft:stored_enchantments": {
                                     "matcha:max_magic_protection": 1,
                                     "matcha:cleanse_armor_maleffect": 1,
-                                    "matcha:shakudo_armour": 1
+                                    "matcha:shakudo_elytra": 1
                                 },
                                 "minecraft:enchantment_glint_override": false,
                                 "minecraft:item_model": "matcha:shakudo_elytra",
