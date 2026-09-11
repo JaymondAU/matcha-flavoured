@@ -23,3 +23,4 @@ scoreboard players set @a electrum_armour 0
 scoreboard players set @a adamant_armour 0
 scoreboard players set @a warding_equipment 0
 scoreboard players set @a shakudo_regen 0
+tag @a remove matcha_shakudo_elytra_bonus
