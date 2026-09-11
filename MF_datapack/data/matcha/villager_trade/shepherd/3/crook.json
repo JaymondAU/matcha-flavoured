@@ -30,7 +30,7 @@
 				{
 					"type": "minecraft:entity_interaction_range",
 					"id": "entity_interaction_range",
-					"amount": 3,
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "offhand"
 				},
@@ -47,41 +47,61 @@
 					"amount": 1,
 					"operation": "add_value",
 					"slot": "offhand"
-				},
-				{
-					"type": "minecraft:attack_speed",
-					"id": "crook",
-					"amount": -1,
-					"operation": "add_value"
 				}
 			],
 			"minecraft:lore": [
 				{
-					"text": "⛏ 2",
+					"translate": "desc.kleispack.mining_speed",
+					"with": ["8"],
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 5",
+					"translate": "desc.kleispack.attack_damage",
+					"with": ["5"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 3",
+					"translate": "desc.kleispack.cooldown",
+					"with": ["4"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE034 +3",
+					"translate": "\uE028 %s",
+					"with": ["3"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE033 1",
+					"translate": "\uE027 %s",
+					"with": ["1"],
 					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.repaired_with",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "item.minecraft.stick",
+					"color": "dark_gray",
 					"italic": false
 				}
 			],
+			"minecraft:tool": {
+				"rules": [
+					{
+						"blocks": "#minecraft:mineable/hoe",
+						"speed": 8,
+						"correct_for_drops": true
+					}
+				],
+				"default_mining_speed": 1,
+				"damage_per_block": 1
+			},
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:attribute_modifiers"

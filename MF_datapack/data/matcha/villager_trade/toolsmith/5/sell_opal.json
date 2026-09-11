@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:fermented_spider_eye",
 		"components": {
-			"minecraft:item_model": "minecraft:opal",
+			"minecraft:item_model": "matcha:opal",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.opal",
 				"color": "#ab85ad"

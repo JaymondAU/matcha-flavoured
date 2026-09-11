@@ -2,7 +2,7 @@
 	"gives": {
 		"id": "minecraft:bundle",
 		"components": {
-			"minecraft:item_model": "seed_bundle",
+			"minecraft:item_model": "matcha:seed_bundle",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.bundle.seed"
 			},

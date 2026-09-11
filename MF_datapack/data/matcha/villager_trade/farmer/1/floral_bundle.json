@@ -2,7 +2,7 @@
 	"gives": {
 		"id": "minecraft:bundle",
 		"components": {
-			"minecraft:item_model": "floral_bundle",
+			"minecraft:item_model": "matcha:floral_bundle",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.bundle.floral"
 			},

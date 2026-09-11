@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_shovel",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+                                "minecraft:item_name": {
+                                    "translate": "item.kleispack.steel_shears"
+                                },
+                                "minecraft:max_damage": 3000,
+                                "minecraft:item_model": "matcha:steel_shears",
+                                "minecraft:repairable": {
+                                    "items": [
+                                        "minecraft:iron_ingot"
+                                    ]
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "desc.kleispack.repaired_with",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "item.minecraft.iron_ingot",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    }
+                                ]
+                            }
+						}
+					]
+				}
+			]
+		}
+	]
+}

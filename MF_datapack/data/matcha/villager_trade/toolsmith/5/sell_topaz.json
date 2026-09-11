@@ -2,7 +2,7 @@
 	"wants": {
 		"id": "minecraft:fermented_spider_eye",
 		"components": {
-			"minecraft:item_model": "minecraft:topaz",
+			"minecraft:item_model": "matcha:topaz",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.topaz",
 				"color": "yellow"

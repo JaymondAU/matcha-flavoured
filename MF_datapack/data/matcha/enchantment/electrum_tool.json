@@ -1,7 +1,8 @@
 {
 	"anvil_cost": 0,
 	"description": {
-		"translate": "enchantment.kleispack.electrum_tool"
+		"translate": "enchantment.kleispack.electrum_tool",
+		"color": "yellow"
 	},
 	"exclusive_set": "#minecraft:exclusive_set/mining",
 	"max_cost": {

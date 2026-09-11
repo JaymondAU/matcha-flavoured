@@ -2,7 +2,7 @@
 	"gives": {
 		"id": "minecraft:bundle",
 		"components": {
-			"minecraft:item_model": "mushy_bundle",
+			"minecraft:item_model": "matcha:mushy_bundle",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.bundle.mushroom"
 			},

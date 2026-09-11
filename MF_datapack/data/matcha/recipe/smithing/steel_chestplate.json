@@ -8,17 +8,20 @@
 			"minecraft:max_damage": 1000,
 			"minecraft:lore": [
 				{
-					"text": "\uE029 +2",
+					"translate": "desc.kleispack.armour",
+					"with": [ "7"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🛡 7",
+					"translate": "desc.kleispack.armour_toughness",
+					"with": [ "1"],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE008 1",
+					"translate": "desc.kleispack.knockback_resistance",
+					"with": ["2"],
 					"color": "dark_green",
 					"italic": false
 				},

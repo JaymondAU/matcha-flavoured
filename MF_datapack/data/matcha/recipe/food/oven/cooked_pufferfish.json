@@ -15,9 +15,7 @@
 				},
 				{
 					"translate": "effect.kleispack.conduit_power",
-					"with": [
-						"0:30"
-					],
+					"with": ["0:30"],
 					"color": "#7ec9e7",
 					"italic": false
 				}
@@ -46,7 +44,7 @@
 					}
 				]
 			},
-			"minecraft:item_model": "minecraft:cooked_pufferfish",
+			"minecraft:item_model": "matcha:cooked_pufferfish",
 			"minecraft:food": {
 				"nutrition": 0,
 				"saturation": 0,

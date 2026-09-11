@@ -79,7 +79,7 @@
 			"minecraft:stored_enchantments": {
 				"matcha:electrum_tool": 3,
 				"minecraft:looting": 2,
-				"minecraft:smite": 1,
+				"minecraft:smite": 3,
 				"matcha:warding_2": 1
 			},
 			"minecraft:repairable": {

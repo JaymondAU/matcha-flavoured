@@ -13,12 +13,14 @@
 			"minecraft:max_damage": 200,
 			"minecraft:lore": [
 				{
-					"text": "🛡 1",
+					"translate": "desc.kleispack.armour",
+					"with": [{"text": "1"}],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "\uE033 1",
+					"translate": "desc.kleispack.fall_height_attribute",
+					"with": [{"text": "1"}],
 					"color": "dark_green",
 					"italic": false
 				}
