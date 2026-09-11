@@ -7,6 +7,11 @@
 	"effects": {
 		"minecraft:tick": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {}
+				},
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "matcha:enchantment_effects/shakudo_elytra"
@@ -15,7 +20,7 @@
 		]
 	},
 	"max_cost": {
-		"base": 1,
+		"base": 15,
 		"per_level_above_first": 0
 	},
 	"max_level": 1,
@@ -26,6 +31,6 @@
 	"slots": [
 		"armor"
 	],
-	"supported_items": "#matcha:enchantable/shakudo_elytra",
+	"supported_items": "#minecraft:enchantable/armor",
 	"weight": 1
 }
