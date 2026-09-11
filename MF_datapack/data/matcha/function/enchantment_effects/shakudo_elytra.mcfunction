@@ -1,4 +1,4 @@
-# Shakudo Elytra counts as a stronger regen piece (+5 vs +1 per armour piece)
+# Add shakudo_regen per equipment piece by 1
 # Reset in stopwatches.mcfunction
 
 scoreboard players add @s shakudo_regen 5
