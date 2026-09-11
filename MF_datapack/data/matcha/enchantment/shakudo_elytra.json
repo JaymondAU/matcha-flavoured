@@ -1,7 +1,8 @@
 {
-	"exclusive_set": "#matcha:exclusive_set/intrinsic_armor",
-	"primary_items": [
-		"minecraft:elytra"
+	"exclusive_set": [
+		"matcha:shakudo_armour",
+		"matcha:adamant_armour",
+		"matcha:electrum_armour"
 	],
 	"anvil_cost": 0,
 	"description": {
@@ -35,11 +36,8 @@
 		"per_level_above_first": 0
 	},
 	"slots": [
-		"mainhand",
-		"armor"
+		"chest"
 	],
-	"supported_items": [
-		"minecraft:elytra"
-	],
+	"supported_items": "minecraft:elytra",
 	"weight": 1
 }
