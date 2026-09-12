@@ -8,8 +8,6 @@ execute if score current_world_settings_difficulty difficulty_score matches 1 ru
 #If they are NOT on easy, and they dip below their minimum, set it to their minimum
 execute if score current_world_settings_difficulty difficulty_score matches 2.. run execute if score @s Hearts < @s minimum_hearts run scoreboard players operation @s Hearts = @s minimum_hearts
 
-# Normal/hard: clamp to this player's minimum_hearts (wired from broken-heart advancements)
-execute if score current_world_settings_difficulty difficulty_score matches 2.. if score @s Hearts < @s minimum_hearts run scoreboard players operation @s Hearts = @s minimum_hearts
 
 # Convert the player's Hearts score into a format that the Macro function can read
 execute store result storage matcha:hearts Hearts float 1 run scoreboard players get @s Hearts
