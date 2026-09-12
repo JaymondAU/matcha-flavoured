@@ -14,21 +14,28 @@ scoreboard players set 45 sneaking 45
 scoreboard objectives add Hunger food
 scoreboard objectives add HealthPoints health
 scoreboard objectives add deaths deathCount
-scoreboard players set 1 deaths 1
 
-# Setup "minimum_hearts" scoreboard
-scoreboard objectives add minimum_hearts dummy
-scoreboard players add @a minimum_hearts 0
-execute as @a unless score @s minimum_hearts matches 6..20 run scoreboard players set @s minimum_hearts 20
 
 # Setup "Hearts" scoreboard
 scoreboard objectives add Hearts dummy
 scoreboard players add @a Hearts 0
 scoreboard players set @a[scores={Hearts=0}] Hearts 20
-scoreboard players add current_minimum_hearts Hearts 0
-scoreboard players set minimum_normal_hearts Hearts 12
-scoreboard players set minimum_hard_hearts Hearts 6
-scoreboard players set maximum_hearts Hearts 60
+
+# Global variables for "Hearts"
+# Because actual players will exist on this scoreboard, we add Special Characters to the variable names
+scoreboard players set $Max Hearts 60
+
+
+# Setup "minimum_hearts" scoreboard
+scoreboard objectives add minimum_hearts dummy
+scoreboard players add @a minimum_hearts 0
+
+# Global variables for "minimum_hearts"
+# Because actual players will exist on this scoreboard, we add Special Characters to the variable names
+scoreboard players set $Easy minimum_hearts 20
+scoreboard players set $Normal minimum_hearts 12
+scoreboard players set $Hard minimum_hearts 6
+
 
 # players' sleepTimer data value, and several other variables
 # related to sleeping stored in fake players
@@ -73,7 +80,7 @@ stopwatch create 2s
 stopwatch create 1s
 stopwatch create 0.5s
 
-#Used to clear xp after a cetain time after interacting with an anvil (cannot use schedule, as only the server can run schedule right now)
+#Used to clear xp after a certain time after interacting with an anvil (cannot use schedule, as only the server can run schedule right now)
 stopwatch create xp_timer
 
 #Used for village sounds

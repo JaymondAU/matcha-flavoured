@@ -1,16 +1,12 @@
-# If Hearts is unset or <= 0, restore from this player's minimum (fallback 20)
-execute unless score @s Hearts = @s Hearts run scoreboard players set @s Hearts 20
-execute if score @s Hearts matches ..0 if score @s minimum_hearts matches 6..20 run scoreboard players operation @s Hearts = @s minimum_hearts
-execute if score @s Hearts matches ..0 run scoreboard players set @s Hearts 20
+#Fallback, this shouldn't happen, but if somehow their score is set above the max, then set it to the maximum
+execute if score @s Hearts >= $Max Hearts run scoreboard players operation @s Hearts = $Max Hearts
 
-# Ensure personal minimum is valid before clamping
-execute unless score @s minimum_hearts matches 6..20 run scoreboard players set @s minimum_hearts 20
 
-# Fallback: if somehow their score is set above the max, then set it to the maximum
-execute if score @s Hearts >= maximum_hearts Hearts store result score @s Hearts run scoreboard players get maximum_hearts Hearts
+#If they are on easy, we want to make sure it never goes below 10, HOWEVER, if they choose to go back to normal, we still want them to have that death consequence, thus:
+execute if score current_world_settings_difficulty difficulty_score matches 1 run execute if score @s Hearts < $Easy minimum_hearts run scoreboard players operation @s Hearts = $Easy minimum_hearts
 
-# Easy: never go below 10 hearts (20 HP). Death floor still tracks via minimum_hearts if they leave easy.
-execute if score current_world_settings_difficulty difficulty_score matches 1 if score @s Hearts matches ..19 run scoreboard players set @s Hearts 20
+#If they are NOT on easy, and they dip below their minimum, set it to their minimum
+execute if score current_world_settings_difficulty difficulty_score matches 2.. run execute if score @s Hearts < @s minimum_hearts run scoreboard players operation @s Hearts = @s minimum_hearts
 
 # Normal/hard: clamp to this player's minimum_hearts (wired from broken-heart advancements)
 execute if score current_world_settings_difficulty difficulty_score matches 2.. if score @s Hearts < @s minimum_hearts run scoreboard players operation @s Hearts = @s minimum_hearts

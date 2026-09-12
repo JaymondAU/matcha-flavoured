@@ -110,13 +110,18 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 
 # Scoreboards to be removed
 - apotropaic
-scoreboard players add copper_age Hearts 0
-scoreboard players add iron_age Hearts 0
-scoreboard players add diamond_age Hearts 0
-scoreboard players add nether_age Hearts 0
-scoreboard players add electrum_age Hearts 0
-scoreboard players add netherite_age Hearts 0
-scoreboard players add end_age Hearts 0
+- scoreboard players add copper_age Hearts 0
+- scoreboard players add iron_age Hearts 0
+- scoreboard players add diamond_age Hearts 0
+- scoreboard players add nether_age Hearts 0
+- scoreboard players add electrum_age Hearts 0
+- scoreboard players add netherite_age Hearts 0
+- scoreboard players add end_age Hearts 0
+- scoreboard players set 1 deaths 1
+- scoreboard players add current_minimum_hearts Hearts 0
+- scoreboard players set minimum_normal_hearts Hearts 12
+- scoreboard players set minimum_hard_hearts Hearts 6
+- scoreboard players set maximum_hearts Hearts 60
 
 # on_first_load
 - Use a scoreboard to determine if its really the first load
