@@ -1,0 +1,83 @@
+{
+	"criteria": {
+		"steel_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_helmet",
+						"components": {
+							"minecraft:item_model": "matcha:steel_helmet",
+							"minecraft:equippable": {
+								"slot": "head",
+								"asset_id": "minecraft:steel"
+							}
+						}
+					}
+				]
+			}
+		},
+		"steel_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_chestplate",
+						"components": {
+							"minecraft:item_model": "matcha:steel_chestplate",
+							"minecraft:equippable": {
+								"slot": "chest",
+								"asset_id": "minecraft:steel"
+							}
+						}
+					}
+				]
+			}
+		},
+		"steel_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_leggings",
+						"components": {
+							"minecraft:item_model": "matcha:steel_leggings",
+							"minecraft:equippable": {
+								"slot": "legs",
+								"asset_id": "minecraft:steel"
+							}
+						}
+					}
+				]
+			}
+		},
+		"steel_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:iron_boots",
+						"components": {
+							"minecraft:item_model": "matcha:steel_boots",
+							"minecraft:equippable": {
+								"slot": "feet",
+								"asset_id": "minecraft:steel"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"steel_helmet",
+			"steel_chestplate",
+			"steel_leggings",
+			"steel_boots"
+		]
+	],
+	"rewards": {
+		"function": "matcha:update_old_items/steel_armour"
+	}
+}

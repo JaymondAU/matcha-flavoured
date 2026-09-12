@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"has_fish_bones": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bone",
+						"components": {
+							"minecraft:item_model": "minecraft:fish_bones"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_fish_bones"
+		]
+	],
+	"rewards": {
+		"function": "matcha:update_old_items/fish_bones"
+	}
+}

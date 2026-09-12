@@ -1,0 +1,18 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"items": "minecraft:bone",
+		"components": {
+			"minecraft:item_model": "minecraft:fish_bones"
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "matcha:fish_bones",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.fish.fish_bones"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"items": "minecraft:iron_chestplate",
+		"components": {
+			"minecraft:item_model": "matcha:steel_chestplate"
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "matcha:steel"
+			}
+		}
+	}
+}

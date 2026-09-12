@@ -1,0 +1,18 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"items": "minecraft:iron_leggings",
+		"components": {
+			"minecraft:item_model": "matcha:steel_leggings"
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "matcha:steel"
+			}
+		}
+	}
+}
