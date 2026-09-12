@@ -14,17 +14,17 @@
   },
   "display": {
     "description": {
-      "translate": "adv.kleispack.adventure.obtain_tanakh.desc"
+      "translate": "adv.kleispack.with_songs.obtain_tanakh.desc"
     },
     "icon": {
 			"components": {
-				"minecraft:item_model": "tanakh"
+				"minecraft:item_model": "matcha:tanakh"
 			},
 			"count": 1,
 			"id": "minecraft:poisonous_potato"
 		},
     "title": {
-      "translate": "adv.kleispack.adventure.obtain_tanakh"
+      "translate": "adv.kleispack.with_songs.obtain_tanakh"
     },
     "hidden": false
   },

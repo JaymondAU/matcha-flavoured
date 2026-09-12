@@ -1029,6 +1029,9 @@
   "adv.kleispack.adventure.root": "With shanties",
   "adv.kleispack.adventure.trade_with_cartographer": "Rumours of old",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Purchase a map from an antiquarian",
+  "adv.kleispack.with_songs.obtain_tanakh": "There Is No God!",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Plunder an abbey",
+  "adv.kleispack.with_songs.max_health": "A Heart Full",
+  "adv.kleispack.with_songs.max_health.desc": "Reach the maximum number of Heart Containers",
   "filled_map.house_of_wisdom": "Map t' th' olde files"
 }

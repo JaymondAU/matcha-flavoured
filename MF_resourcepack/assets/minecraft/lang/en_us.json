@@ -1146,7 +1146,10 @@
   "adv.kleispack.adventure.root": "With Songs",
   "adv.kleispack.adventure.trade_with_cartographer": "Forgotten Rumours",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Buy a map from an Archaeologist",
+  "adv.kleispack.with_songs.obtain_tanakh": "There Is No God!",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
+  "adv.kleispack.with_songs.max_health": "A Heart Full",
+  "adv.kleispack.with_songs.max_health.desc": "Reach the maximum number of Heart Containers",
   "filled_map.house_of_wisdom": "Archive Map",
   "desc.kleispack.knockback_attribute":"\uE013 %s",
   "enchantment.kleispack.electrum_tool":"\uE040"
