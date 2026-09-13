@@ -27,3 +27,7 @@ bin/
 
 ### Minecraft Modding ###
 references/
+
+### Local tracking notes (keep on disk, don't push) ###
+LOCAL_ISSUES.md
+GITHUB_ISSUE_DRAFT.md
