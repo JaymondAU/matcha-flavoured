@@ -86,5 +86,11 @@
   "adv.kleispack.anglers_almanac.angler_pottery_sherd.desc": "",
   "item.kleispack.curry_ice_cream": "",
   "item.kleispack.chocolate_ice_cream": "",
-  "item.kleispack.sweet_berry_ice_cream": ""
+  "item.kleispack.sweet_berry_ice_cream": "",
+  "adv.kleispack.cook_secret_food": "Hidden Flavors",
+  "adv.kleispack.cook_secret_food.desc": "Cook a secret Ingredient",
+  "adv.kleispack.cook_secret_meal": "Wait, you can make that?",
+  "adv.kleispack.cook_secret_meal.desc": "Cook a secret Meal",
+  "item.kleispack.secret_ingredient": "Secret Ingredient",
+  "item.kleispack.secret_meal": "Secret Meal"
 }

@@ -670,6 +670,8 @@
   "adv.kleispack.cook_secret_food.desc": "Przygotuj sekretny składnik",
   "adv.kleispack.cook_secret_meal": "Chwila, można to zrobić?",
   "adv.kleispack.cook_secret_meal.desc": "Zrób sekretny posiłek",
+  "item.kleispack.secret_ingredient": "Sekretny składnik",
+  "item.kleispack.secret_meal": "Sekretny posiłek",
   "adv.kleispack.enter_nether": "Orfeusz",
   "adv.kleispack.enter_nether.desc": "Zejdź do Piekła",
   "adv.kleispack.find_stronghold": "Koniec Snów",

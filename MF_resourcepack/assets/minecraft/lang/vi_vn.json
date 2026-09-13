@@ -766,6 +766,8 @@
   "adv.kleispack.cook_secret_food.desc": "Nấu một nguyên liệu bí mật",
   "adv.kleispack.cook_secret_meal": "Ủa cái đó nấu được à?",
   "adv.kleispack.cook_secret_meal.desc": "Nấu một món ăn bí mật",
+  "item.kleispack.secret_ingredient": "Nguyên liệu bí mật",
+  "item.kleispack.secret_meal": "Món ăn bí mật",
   "adv.kleispack.enter_nether": "Orpheus",
   "adv.kleispack.enter_nether.desc": "Hạ mình xuống địa ngục",
   "adv.kleispack.kill_villager": "Tạo nghiệp",

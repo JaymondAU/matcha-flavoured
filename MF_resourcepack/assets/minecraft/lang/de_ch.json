@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "Koch e geheimi Zuetat",
   "adv.kleispack.cook_secret_meal": "Wart, das ka me herstelle?",
   "adv.kleispack.cook_secret_meal.desc": "Koch e gheimes Gericht",
+  "item.kleispack.secret_ingredient": "Geheimi Zuetat",
+  "item.kleispack.secret_meal": "Gheimes Gericht",
   "adv.kleispack.enter_nether": "Orpheus",
   "adv.kleispack.enter_nether.desc": "Stieg in d Hölle abe",
   "adv.kleispack.find_stronghold": "S Endi vo Träum",

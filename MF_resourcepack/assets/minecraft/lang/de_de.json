@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "Koche eine geheime Zutat",
   "adv.kleispack.cook_secret_meal": "Warte, das kann man herstellen?",
   "adv.kleispack.cook_secret_meal.desc": "Koche ein geheimes Gericht",
+  "item.kleispack.secret_ingredient": "Geheime Zutat",
+  "item.kleispack.secret_meal": "Geheimes Gericht",
   "adv.kleispack.enter_nether": "Orpheus",
   "adv.kleispack.enter_nether.desc": "Steige in die Hölle herab",
   "adv.kleispack.find_stronghold": "Das Ende von Träumen",

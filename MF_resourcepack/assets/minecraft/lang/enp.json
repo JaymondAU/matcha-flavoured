@@ -783,6 +783,8 @@
   "adv.kleispack.cook_secret_food.desc": "Cook a dern anwork",
   "adv.kleispack.cook_secret_meal": "Abide! You can make that?",
   "adv.kleispack.cook_secret_meal.desc": "Cook a dern meal",
+  "item.kleispack.secret_ingredient": "Dern Anwork",
+  "item.kleispack.secret_meal": "Dern Meal",
   "adv.kleispack.enter_nether": "Hellfarer",
   "adv.kleispack.enter_nether.desc": "Descend into Hell",
   "adv.kleispack.find_stronghold": "The End of Dreams",

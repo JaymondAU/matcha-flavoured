@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "秘密の材料を調理する",
   "adv.kleispack.cook_secret_meal": "えっ、それ作れるの？",
   "adv.kleispack.cook_secret_meal.desc": "秘密の料理を調理する",
+  "item.kleispack.secret_ingredient": "秘密の材料",
+  "item.kleispack.secret_meal": "秘密の料理",
   "adv.kleispack.enter_nether": "オルペウス",
   "adv.kleispack.enter_nether.desc": "地獄に落ちる",
   "adv.kleispack.find_stronghold": "夢の終わり",

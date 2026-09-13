@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "Cozinhe um Ingrediente Secreto",
   "adv.kleispack.cook_secret_meal": "Espera, como você fez isso?",
   "adv.kleispack.cook_secret_meal.desc": "Cozinhe uma Comida Secreta",
+  "item.kleispack.secret_ingredient": "Ingrediente Secreto",
+  "item.kleispack.secret_meal": "Comida Secreta",
   "adv.kleispack.enter_nether": "Orfeu",
   "adv.kleispack.enter_nether.desc": "Desça no Inferno",
   "adv.kleispack.find_stronghold": "O Fim dos Sonhos",

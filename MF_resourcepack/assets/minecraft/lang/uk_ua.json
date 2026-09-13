@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "Приготуйте секретний інгредієнт",
   "adv.kleispack.cook_secret_meal": "А так можна було?!",
   "adv.kleispack.cook_secret_meal.desc": "Приготуйте секретну страву",
+  "item.kleispack.secret_ingredient": "Секретний інгредієнт",
+  "item.kleispack.secret_meal": "Секретна страва",
   "adv.kleispack.enter_nether": "Орфей",
   "adv.kleispack.enter_nether.desc": "Спустіться в Пекло",
   "adv.kleispack.find_stronghold": "Мріям кінець",

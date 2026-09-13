@@ -1,0 +1,18 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"items": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "minecraft:tricero_chicken_nugget"
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "matcha:tricero_chicken_nugget",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.tricero_chicken_nugget"
+			}
+		}
+	}
+}

@@ -718,6 +718,8 @@
   "adv.kleispack.cook_secret_food.desc": "Uvař tajnou ingredienci",
   "adv.kleispack.cook_secret_meal": "Počkat, to můžeš udělat?",
   "adv.kleispack.cook_secret_meal.desc": "Uvař tajné jídlo",
+  "item.kleispack.secret_ingredient": "Tajná ingredience",
+  "item.kleispack.secret_meal": "Tajné jídlo",
   "adv.kleispack.enter_nether": "Orfeus",
   "adv.kleispack.enter_nether.desc": "Sestup do podsvětí",
   "adv.kleispack.find_stronghold": "Konec snění",

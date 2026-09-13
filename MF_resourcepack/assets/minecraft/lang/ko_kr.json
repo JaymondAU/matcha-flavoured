@@ -719,6 +719,8 @@
   "adv.kleispack.cook_secret_food.desc": "비밀 재료를 요리하세요",
   "adv.kleispack.cook_secret_meal": "잠깐, 그게 된다고?",
   "adv.kleispack.cook_secret_meal.desc": "비밀 음식을 요리하세요",
+  "item.kleispack.secret_ingredient": "비밀 재료",
+  "item.kleispack.secret_meal": "비밀 음식",
   "adv.kleispack.enter_nether": "오르페우스",
   "adv.kleispack.enter_nether.desc": "지옥으로 내려가세요",
   "adv.kleispack.find_stronghold": "꿈의 끝",

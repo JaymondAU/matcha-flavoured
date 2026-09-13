@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "烹饪一种秘密食材",
   "adv.kleispack.cook_secret_meal": "等等，这也能做？",
   "adv.kleispack.cook_secret_meal.desc": "烹饪一顿秘密佳肴",
+  "item.kleispack.secret_ingredient": "秘密食材",
+  "item.kleispack.secret_meal": "秘密佳肴",
   "adv.kleispack.enter_nether": "俄耳甫斯",
   "adv.kleispack.enter_nether.desc": "坠入地狱",
   "adv.kleispack.find_stronghold": "梦的尽头",

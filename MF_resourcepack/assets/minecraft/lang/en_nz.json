@@ -779,6 +779,8 @@
   "adv.kleispack.cook_secret_food.desc": "Cook a secret Ingredient",
   "adv.kleispack.cook_secret_meal": "Wait, you can make that?",
   "adv.kleispack.cook_secret_meal.desc": "Cook a secret Meal",
+  "item.kleispack.secret_ingredient": "Secret Ingredient",
+  "item.kleispack.secret_meal": "Secret Meal",
   "adv.kleispack.enter_nether": "Orpheus",
   "adv.kleispack.enter_nether.desc": "Descend into Hell",
   "adv.kleispack.find_stronghold": "The End of Dreams",

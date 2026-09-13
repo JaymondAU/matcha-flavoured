@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "Makaluto ng lihim na sangkap",
   "adv.kleispack.cook_secret_meal": "Ano ba naman yan?",
   "adv.kleispack.cook_secret_meal.desc": "Makaluto ng lihim na Lutuin",
+  "item.kleispack.secret_ingredient": "Lihim na sangkap",
+  "item.kleispack.secret_meal": "Lihim na lutuin",
   "adv.kleispack.enter_nether": "Orpeo",
   "adv.kleispack.enter_nether.desc": "Pumasok sa Kasanaan",
   "adv.kleispack.find_stronghold": "Sa Saan Pa'ng Managinip",

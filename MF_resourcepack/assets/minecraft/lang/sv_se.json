@@ -766,6 +766,8 @@
   "adv.kleispack.cook_secret_food.desc": "Koka en hemlig ingredient",
   "adv.kleispack.cook_secret_meal": "Vänta ... kan man göra det där?",
   "adv.kleispack.cook_secret_meal.desc": "Koka hemlig mat",
+  "item.kleispack.secret_ingredient": "Hemlig ingredient",
+  "item.kleispack.secret_meal": "Hemlig mat",
   "adv.kleispack.enter_nether": "Orfeus",
   "adv.kleispack.enter_nether.desc": "Drar åt helvetet",
   "adv.kleispack.find_stronghold": "Slutet av ens drömmar",

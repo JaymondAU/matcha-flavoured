@@ -618,6 +618,8 @@
   "adv.kleispack.cook_secret_food.desc": "Kokkerer en hemmelig ingrediens",
   "adv.kleispack.cook_secret_meal": "Vent, du kan lave det?",
   "adv.kleispack.cook_secret_meal.desc": "Kokkerer et hemmeligt måltid",
+  "item.kleispack.secret_ingredient": "Hemmelig ingrediens",
+  "item.kleispack.secret_meal": "Hemmeligt måltid",
   "adv.kleispack.enter_nether": "Orfeus",
   "adv.kleispack.enter_nether.desc": "Nedstig ned i helvede",
   "adv.kleispack.find_stronghold": "Slutningen af drømme",

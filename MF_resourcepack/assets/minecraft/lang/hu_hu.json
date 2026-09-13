@@ -766,6 +766,8 @@
   "adv.kleispack.cook_secret_food.desc": "Süss egy titkos hozzávalóval",
   "adv.kleispack.cook_secret_meal": "Ez meg milyen fűszer?",
   "adv.kleispack.cook_secret_meal.desc": "Süss egy titkos ételt",
+  "item.kleispack.secret_ingredient": "Titkos hozzávaló",
+  "item.kleispack.secret_meal": "Titkos étel",
   "adv.kleispack.enter_nether": "Aki másnak vermet ás...",
   "adv.kleispack.enter_nether.desc": "Látogasd meg a pokolt",
   "adv.kleispack.find_stronghold": "Minden álom véget ér",

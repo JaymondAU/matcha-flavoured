@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"has_tricero_chicken_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:poisonous_potato",
+						"components": {
+							"minecraft:item_model": "minecraft:tricero_chicken_nugget"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_tricero_chicken_nugget"
+		]
+	],
+	"rewards": {
+		"function": "matcha:update_old_items/tricero_chicken_nugget"
+	}
+}

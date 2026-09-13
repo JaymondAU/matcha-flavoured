@@ -766,6 +766,8 @@
   "adv.kleispack.cook_secret_food.desc": "烹調一個隱藏食材",
   "adv.kleispack.cook_secret_meal": "等等，你能做出那個？",
   "adv.kleispack.cook_secret_meal.desc": "烹調一道隱藏料理",
+  "item.kleispack.secret_ingredient": "隱藏食材",
+  "item.kleispack.secret_meal": "隱藏料理",
   "adv.kleispack.enter_nether": "天堂與地獄",
   "adv.kleispack.enter_nether.desc": "走入地獄",
   "adv.kleispack.find_stronghold": "夢的盡頭",

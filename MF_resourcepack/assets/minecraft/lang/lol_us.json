@@ -730,6 +730,8 @@
   "adv.kleispack.cook_secret_food.desc": "COOK DA SECRET THING",
   "adv.kleispack.cook_secret_meal": "WAIT U CAN COOK DAT?!",
   "adv.kleispack.cook_secret_meal.desc": "MAKE DA SECRET NOM",
+  "item.kleispack.secret_ingredient": "SECRET THING",
+  "item.kleispack.secret_meal": "SECRET NOM",
   "adv.kleispack.enter_nether": "DOWN WE GO",
   "adv.kleispack.enter_nether.desc": "GO TO BAD HOT PLACE",
   "adv.kleispack.find_stronghold": "DREAMS = DELETED",

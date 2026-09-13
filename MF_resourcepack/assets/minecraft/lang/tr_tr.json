@@ -767,6 +767,8 @@
   "adv.kleispack.cook_secret_food.desc": "Gizli bir bileşen pişir",
   "adv.kleispack.cook_secret_meal": "O da mı yapılıyormuş ya?",
   "adv.kleispack.cook_secret_meal.desc": "Gizli bir öğün pişir",
+  "item.kleispack.secret_ingredient": "Gizli bileşen",
+  "item.kleispack.secret_meal": "Gizli öğün",
   "adv.kleispack.enter_nether": "Orfeus",
   "adv.kleispack.enter_nether.desc": "Cehennem'e gir",
   "adv.kleispack.find_stronghold": "Rüyaların Sonu",

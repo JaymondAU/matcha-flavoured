@@ -765,6 +765,8 @@
   "adv.kleispack.cook_secret_food.desc": "Kook een Geheim Ingrediënt",
   "adv.kleispack.cook_secret_meal": "Wacht, dat kan je koken?",
   "adv.kleispack.cook_secret_meal.desc": "Kook een Geheime Maaltijd",
+  "item.kleispack.secret_ingredient": "Geheim Ingrediënt",
+  "item.kleispack.secret_meal": "Geheime Maaltijd",
   "adv.kleispack.enter_nether": "Orpheus",
   "adv.kleispack.enter_nether.desc": "Daal af in de Hel",
   "adv.kleispack.find_stronghold": "Het einde van de Dromen",

@@ -1,0 +1,42 @@
+#Does not run in creative, because it can cause an infinite loop
+advancement revoke @s only matcha:update_old_items/tricero_chicken_nugget
+execute if entity @s[gamemode=creative] run return fail
+
+item modify entity @s weapon.mainhand matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s weapon.offhand matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.0 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.1 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.2 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.3 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.4 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.5 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.6 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.7 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.8 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.9 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.10 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.11 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.12 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.13 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.14 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.15 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.16 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.17 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.18 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.19 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.20 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.21 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.22 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.23 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.24 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.25 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.26 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.27 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.28 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.29 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.30 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.31 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.32 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.33 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.34 matcha:update_old_items/tricero_chicken_nugget
+item modify entity @s container.35 matcha:update_old_items/tricero_chicken_nugget
