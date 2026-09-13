@@ -19,6 +19,7 @@ scoreboard players operation sleep_rate sleepTimerScore *= players_sleeping slee
 scoreboard players operation sleep_rate sleepTimerScore /= players_in_overworld sleepTimerScore
 scoreboard players operation sleep_rate sleepTimerScore /= players_in_overworld sleepTimerScore
 
+
 # store sleep_rate in nbt storage (needed to pass to macro function later)
 execute store result storage sleep_rate_temp time int 1.0 \
     run scoreboard players get sleep_rate sleepTimerScore

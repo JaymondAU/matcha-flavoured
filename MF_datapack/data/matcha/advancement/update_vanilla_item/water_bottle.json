@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function":	"matcha:mechanic/water_bottle_stacking"
+    "function":	"matcha:mechanic/water_bottle/check_if_water_bottle_should_be_processed"
   }
 }

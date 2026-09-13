@@ -80,6 +80,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Earrings no longer give knockback resistance
 - Elegy of the Abbe can no longer be crafted
 - Shakudo Elytra Bonus was not working (not sure how this was deleted)
+- Water bottles no longer dupe in creative
 #### Lang
 - Warding Shield, Sword, Silver Sword now uses translate
 #### Recipe Unlocks Fixed
@@ -110,6 +111,7 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 
 # Scoreboards to be removed
 - apotropaic
+- MAYBE NOT X_AGE scoreboards, Linkershim did some nonsense with hearts, and I think they use these, you need to look into it
 - scoreboard players add copper_age Hearts 0
 - scoreboard players add iron_age Hearts 0
 - scoreboard players add diamond_age Hearts 0
@@ -123,20 +125,9 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - scoreboard players set minimum_hard_hearts Hearts 6
 - scoreboard players set maximum_hearts Hearts 60
 
-# on_first_load
-- Use a scoreboard to determine if its really the first load
-- If it is, then reset the adv and minimum heart score
-- Cleanup first load with advancements and things. Seperate the world-dependant scoreeboards from the player dependant ones. and Have a way for newly added scoreboards to be called for without reseting things
-- Remove all unused scoreboards
-- Double check the code changes that guy did, this may no longer be applicable
-
 # Heart decrementing system
 - Still needs work, I forgot where I left off, It needs to be player-depedant rather than world dependant bc people want it that way idk
 
-# moving Changes
-- Maake all curry stocks spawn eggs
-- Make Phantom Membrane spawn egg
-- Change Electrum?
 
 # DOCKET
 - Steel Equip not done
@@ -206,12 +197,13 @@ So if more intrinisc books are added, they can have exlusions, like smelting for
 - Harbinger of Fate: Smith Adamant Elytra 
 
 # Small Additions
+- Make steel 8 iron instead of 4
+- climable block tag???? Chains fs
 - Lilypad cloning
-- Increase rein amount in pale graden fishing
+- Increase resin amount in pale graden fishing
 - Potatoes and Molasses
 - French Fries
 - Jelly/Jam Bread (Or PBJ without the PB)
-- Music Disc Crafting
 - Lilypad cloning
 - Craftable Thorns
 - Add Cinnabar and Sulfur, dripstone, raw copper to dripstone caves, Badlands raw gold, deep dark, disc fragments, to fishing trash
