@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"has_primary_material": {
+		"minecraft_model": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -12,14 +12,31 @@
 					}
 				]
 			}
+		},
+		"pre_rework_matcha": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:poisonous_potato",
+						"components": {
+							"minecraft:item_model": "matcha:heart_container",
+							"!minecraft:consumable": {}
+						}
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
 		[
-			"has_primary_material"
+			"minecraft_model"
+		],
+		[
+			"pre_rework_matcha"
 		]
 	],
 	"rewards": {
-		"function":	"matcha:update_old_items/crystal_heart"
+		"function": "matcha:update_old_items/crystal_heart"
 	}
 }

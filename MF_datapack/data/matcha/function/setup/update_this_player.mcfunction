@@ -20,9 +20,6 @@ scoreboard players set @s minimum_hearts 20
 # Revoke Mechanics advancements which were not removed properly in previous versions
 advancement revoke @s only matcha:mechanics/crystal_heart_used
 
-# Upgrade inventory Crystal Hearts to the new consumable / death_protection format
-function matcha:update_old_items/upgrade_crystal_hearts
-
 # Maybe unnecessary? but if they have this they won't be able to sleep so just in case
 advancement revoke @s only matcha:mechanics/slept_in_bed
 
