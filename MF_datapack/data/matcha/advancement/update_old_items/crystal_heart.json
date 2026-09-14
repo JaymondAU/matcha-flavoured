@@ -12,11 +12,25 @@
 					}
 				]
 			}
+		},
+		"matcha_model": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:poisonous_potato",
+						"components": {
+							"minecraft:item_model": "matcha:heart_container"
+						}
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
 		[
-			"minecraft_model"
+			"minecraft_model",
+			"matcha_model"
 		]
 	],
 	"rewards": {
