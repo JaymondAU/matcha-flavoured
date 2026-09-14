@@ -1,0 +1,89 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"predicates": {
+			"minecraft:enchantments": [
+				{
+					"enchantments": [
+						"main:warding_armour"
+					]
+				}
+			]
+		}
+	},
+	"on_pass": [
+		{
+			"function": "minecraft:set_enchantments",
+			"enchantments": {
+				"matcha:electrum_armour": 1,
+				"main:warding_armour": -1
+			},
+			"add": true
+		},
+		{
+			"function": "minecraft:filtered",
+			"item_filter": {
+				"items": "minecraft:diamond_helmet"
+			},
+			"on_pass": {
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:equippable": {
+						"slot": "head",
+						"asset_id": "matcha:electrum"
+					},
+					"minecraft:item_model": "matcha:electrum_helmet"
+				}
+			},
+			"on_fail": {
+				"function": "minecraft:filtered",
+				"item_filter": {
+					"items": "minecraft:diamond_chestplate"
+				},
+				"on_pass": {
+					"function": "minecraft:set_components",
+					"components": {
+						"minecraft:equippable": {
+							"slot": "chest",
+							"asset_id": "matcha:electrum"
+						},
+						"minecraft:item_model": "matcha:electrum_chestplate"
+					}
+				},
+				"on_fail": {
+					"function": "minecraft:filtered",
+					"item_filter": {
+						"items": "minecraft:diamond_leggings"
+					},
+					"on_pass": {
+						"function": "minecraft:set_components",
+						"components": {
+							"minecraft:equippable": {
+								"slot": "legs",
+								"asset_id": "matcha:electrum"
+							},
+							"minecraft:item_model": "matcha:electrum_leggings"
+						}
+					},
+					"on_fail": {
+						"function": "minecraft:filtered",
+						"item_filter": {
+							"items": "minecraft:diamond_boots"
+						},
+						"on_pass": {
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:equippable": {
+									"slot": "feet",
+									"asset_id": "matcha:electrum"
+								},
+								"minecraft:item_model": "matcha:electrum_boots"
+							}
+						}
+					}
+				}
+			}
+		}
+	],
+	"conditions": []
+}

@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:food/enchanted_golden_apple",
+					"value": "matcha:food/enchanted_golden_apple",
 					"quality": 1
 				},
 				{

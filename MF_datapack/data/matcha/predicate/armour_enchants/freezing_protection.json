@@ -1,0 +1,20 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"armor.chest": {
+				"predicates": {
+					"minecraft:enchantments": [
+						{
+							"enchantments": "matcha:freezing_protection",
+							"levels": {
+								"min": 3
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}

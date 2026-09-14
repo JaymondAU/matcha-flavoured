@@ -1,0 +1,23 @@
+{
+	"function": "minecraft:filtered",
+	"item_filter": {
+		"predicates": {
+			"minecraft:enchantments": [
+				{
+					"enchantments": [
+						"main:warding3"
+					]
+				}
+			]
+		}
+	},
+	"on_pass": {
+		"function": "minecraft:set_enchantments",
+		"enchantments": {
+			"matcha:warding_4": 1,
+			"main:warding3": -1
+		},
+		"add": true
+	},
+	"conditions": []
+}
