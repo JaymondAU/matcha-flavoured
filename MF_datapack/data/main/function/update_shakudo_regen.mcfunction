@@ -1,4 +1,2 @@
-item modify entity @s armor.head main:update_shakudo_regen
-item modify entity @s armor.chest main:update_shakudo_regen
-item modify entity @s armor.legs main:update_shakudo_regen
-item modify entity @s armor.feet main:update_shakudo_regen
+# No-op: main:shakudo_regen enchant/migrator removed upstream.
+# Left so leftover references do not fail the datapack load.

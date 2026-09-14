@@ -1,1 +1,2 @@
-item modify entity @s armor.chest main:update_cleanse_armor_maleffect
+# No-op: main:cleanse_armor_maleffect enchant/migrator removed upstream.
+# Left so leftover references do not fail the datapack load.

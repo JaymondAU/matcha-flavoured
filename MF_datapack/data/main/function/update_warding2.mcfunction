@@ -1,1 +1,2 @@
-item modify entity @s weapon.mainhand main:update_warding2
+# No-op: main:warding2 enchant/migrator removed upstream.
+# Left so leftover references do not fail the datapack load.

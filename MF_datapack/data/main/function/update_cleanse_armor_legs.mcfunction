@@ -1,1 +1,2 @@
-item modify entity @s armor.legs main:update_cleanse_armor_legs
+# No-op: main:cleanse_armor_legs enchant/migrator removed upstream.
+# Left so leftover references do not fail the datapack load.

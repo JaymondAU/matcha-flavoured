@@ -1,1 +1,2 @@
-item modify entity @s weapon.mainhand main:update_sanguine
+# No-op: main:sanguine enchant/migrator removed upstream.
+# Left so leftover references do not fail the datapack load.

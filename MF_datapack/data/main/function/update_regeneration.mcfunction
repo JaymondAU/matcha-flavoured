@@ -1,1 +1,2 @@
-item modify entity @s armor.head main:update_regeneration
+# No-op: main:regeneration enchant/migrator removed upstream.
+# Left so leftover references do not fail the datapack load.
