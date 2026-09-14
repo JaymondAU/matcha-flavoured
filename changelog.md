@@ -156,7 +156,8 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Artems fish doesn't list Lukewarm oceans (I think I messed something up)
     - Plus texture!!
 - minecraft/loot_table/gameplay/fishing/junk.json
-
+- Wither skeletons should break blocks to prevent feet stabbies
+- Withered Heart? (Drop from wither) Idk what that does FIGURE IT OUT! (and add it to a future update, not this one)
 
 # BUGS
 - Update Abbey LT to have the good Abbey disc
