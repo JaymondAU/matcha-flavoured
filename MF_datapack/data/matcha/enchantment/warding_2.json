@@ -15,7 +15,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/warding_2_equipment"
+					"function": "matcha:enchantment_effects/warding/value/equipment_2"
 				}
 			}
 		]

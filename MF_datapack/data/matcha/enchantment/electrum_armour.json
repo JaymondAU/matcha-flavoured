@@ -17,7 +17,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/electrum_armour"
+					"function": "matcha:enchantment_effects/warding/value/electrum_armour"
 				}
 			}
 		]

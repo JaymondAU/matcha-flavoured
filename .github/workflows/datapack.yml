@@ -1,0 +1,116 @@
+name: Test Datapack
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'MF_datapack/**'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'MF_datapack/**'
+  workflow_dispatch:
+
+jobs:
+  test-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Zip MF_datapack contents
+        run: |
+          cd MF_datapack
+          zip -r ../MF_datapack.zip .
+
+      - name: Setup Minecraft
+        id: minecraft
+        uses: ReinIsNOTaDev/setup-minecraft@v0.1.0
+        with:
+          version: "release"
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: "microsoft"
+          java-version: ${{ fromJson(steps.minecraft.outputs.package).javaVersion.majorVersion }}
+
+      - name: Run Server
+        timeout-minutes: 6
+        run: |
+          echo Running Minecraft ${{ steps.minecraft.outputs.version }}.
+          cat <<EOF > server.properties
+          initial-enabled-packs=vanilla,file/MF_datapack.zip
+          EOF
+          echo "eula=true" > eula.txt
+          mkdir world
+          cd world
+          mkdir datapacks
+          cd datapacks
+          cp ../../MF_datapack.zip ./
+          cd ../../
+          nohup java -jar $MINECRAFT nogui&> release-server.log &
+          sleep 1
+          timeout 5m grep -Eq 'Done \([.[:digit:]]*s\)! For help, type "help"' <(tail -f release-server.log) || exit 1
+
+      - name: Filter by errors
+        if: ${{ !cancelled() }}
+        run: grep -E '\[.*\/ERROR\]' release-server.log
+
+      - name: Upload server logs
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          path: release-server.log
+          archive: false
+
+  test-snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Zip MF_datapack contents
+        run: |
+          cd MF_datapack
+          zip -r ../MF_datapack.zip .
+
+      - name: Setup Minecraft
+        id: minecraft
+        uses: ReinIsNOTaDev/setup-minecraft@v0.1.0
+        with:
+          version: "snapshot"
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: "microsoft"
+          java-version: ${{ fromJson(steps.minecraft.outputs.package).javaVersion.majorVersion }}
+
+      - name: Run Server
+        timeout-minutes: 6
+        run: |
+          echo Running Minecraft ${{ steps.minecraft.outputs.version }}.
+          cat <<EOF > server.properties
+          initial-enabled-packs=vanilla,file/MF_datapack.zip
+          EOF
+          echo "eula=true" > eula.txt
+          mkdir world
+          cd world
+          mkdir datapacks
+          cd datapacks
+          cp ../../MF_datapack.zip ./
+          cd ../../
+          nohup java -jar $MINECRAFT nogui&> snapshot-server.log &
+          sleep 1
+          timeout 5m grep -Eq 'Done \([.[:digit:]]*s\)! For help, type "help"' <(tail -f snapshot-server.log) || exit 1
+
+      - name: Filter by errors
+        if: ${{ !cancelled() }}
+        run: grep -E '\[.*\/ERROR\]' snapshot-server.log
+
+      - name: Upload server logs
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          path: snapshot-server.log
+          archive: false
+

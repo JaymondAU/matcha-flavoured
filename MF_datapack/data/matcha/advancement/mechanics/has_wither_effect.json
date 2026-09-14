@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"has_wither_effect": {
+			"conditions": {
+				"effects": {}
+			},
+			"trigger": "minecraft:effects_changed"
+		}
+	},
+	"requirements": [
+		[
+			"has_wither_effect"
+		]
+	],
+	"rewards": {
+		"function": "matcha:mechanic/wither_effect/has_wither"
+	}
+}

@@ -491,6 +491,13 @@
 			}
 			
 		},
+		"clone_lily_pad": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "matcha:crafting/clone_lily_pad"
+			}
+			
+		},
 		"made_glow_berry_crumble": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
@@ -714,6 +721,7 @@
 			"bunuelo",
 			"fish_and_chips",
 			"oatmeal",
+			"clone_lily_pad",
 			"ice_cream"
 		]
 	],

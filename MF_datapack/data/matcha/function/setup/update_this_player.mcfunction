@@ -13,6 +13,10 @@ advancement revoke @s through matcha:hell/obtain_warding_stone
 advancement revoke @s until matcha:hell/craft_blessing
 advancement revoke @s from matcha:end/elytra
 
+#THIS IS TEMPORARY this function should be REMOVED after 1.12.3 This is only done so players who played on the experimental update aren't screwed over
+#They shouldn't have their hearts be lower than is meant to due to the previous global minimum heart system
+scoreboard players set @s minimum_hearts 20
+
 # Revoke Mechanics advancements which were not removed properly in previous versions
 advancement revoke @s only matcha:mechanics/heart_container_obtained
 

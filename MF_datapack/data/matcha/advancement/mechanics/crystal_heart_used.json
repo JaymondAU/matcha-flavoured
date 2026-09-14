@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"used_item": {
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:heart_container"
+					}
+				}
+			},
+			"trigger": "minecraft:using_item"
+		}
+	},
+	"requirements": [
+		[
+			"used_item"
+		]
+	],
+	"rewards": {
+		"function": "matcha:mechanic/heart_container/use_crystal_heart"
+	}
+}

@@ -1,0 +1,46 @@
+name: Create Nightly Release
+
+on:
+  schedule:
+    - cron: '20 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  nightly:
+    if: github.repository == 'kleiwright/matcha-flavoured'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Zip MF_resourcepack contents
+        run: |
+          cd MF_resourcepack
+          zip -r ../MF_resourcepack.zip .
+
+      - name: Zip MF_datapack contents
+        run: |
+          cd MF_datapack
+          zip -r ../MF_datapack.zip .
+
+      - name: Create Release Description
+        run: |
+          echo -n "This is an experimental release with the latest features and bugfixes, updated every day. Last commit: " >> nightly.txt
+          git log --format="%H" HEAD^..HEAD >> nightly.txt
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v3.0.3
+        with:
+          name: Nightly Release
+          body: This is an experimental release with the latest features and bugfixes, updated every day.
+          body_path: nightly.txt
+          tag_name: nightly
+          prerelease: true
+          files: |
+            MF_resourcepack.zip
+            MF_datapack.zip

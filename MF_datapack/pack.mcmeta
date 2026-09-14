@@ -886,6 +886,9 @@
 			"path": "recipe/diorite.json"
 		},{
 			"namespace": "minecraft",
+			"path": "recipe/copper_torch.json"
+		},{
+			"namespace": "minecraft",
 			"path": "recipe/copper_lantern.json"
 		},{
 			"namespace": "minecraft",

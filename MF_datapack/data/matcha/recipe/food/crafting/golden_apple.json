@@ -14,12 +14,12 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "\uE030\uE030",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤❤ (2:00)",
+					"text": "\uE030\uE030 (2:00)",
 					"color": "aqua",
 					"italic": false
 				},

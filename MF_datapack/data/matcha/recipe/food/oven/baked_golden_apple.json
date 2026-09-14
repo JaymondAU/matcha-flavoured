@@ -5,24 +5,22 @@
 	"experience": 0.35,
 	"ingredient": "minecraft:golden_apple",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:glistering_melon_slice",
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤",
+					"text": "\uE030\uE030\uE030\uE030",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "❤❤ (2:00)",
+					"text": "\uE030\uE030 (2:00)",
 					"color": "aqua",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.regeneration",
-					"with": [
-						"0:30"
-					],
+					"with": ["0:30"],
 					"color": "#e85e8f",
 					"italic": false
 				}
@@ -61,7 +59,7 @@
 			},
 			"minecraft:item_model": "matcha:baked_golden_apple",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.baked_golden_apple",
+				"translate": "item.minecraft.glistering_melon_slice",
 				"color": "yellow"
 			},
 			"minecraft:food": {

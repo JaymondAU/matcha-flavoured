@@ -5,18 +5,8 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:turtle_scute",
-					"weight": 1,
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:enchantment_glint_override": true,
-								"minecraft:rarity": "rare"
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/divine_fragment"
 				}
 			]
 		}

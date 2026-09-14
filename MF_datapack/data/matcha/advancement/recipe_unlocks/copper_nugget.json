@@ -20,7 +20,8 @@
 	"rewards": {
 		"recipes": [
 			"matcha:crafting/copper_lantern",
-			"matcha:crafting/copper_chain"
+			"matcha:crafting/copper_chain",
+			"matcha:crafting/copper_torch"
 		]
 	}
 }
