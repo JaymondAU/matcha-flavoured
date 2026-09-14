@@ -58,7 +58,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:kleis_items/amber"
+					"value": "matcha:treasure/amber"
 				},
 				{
 					"type": "minecraft:loot_table",

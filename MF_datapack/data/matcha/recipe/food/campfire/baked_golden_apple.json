@@ -59,7 +59,7 @@
 			},
 			"minecraft:item_model": "matcha:baked_golden_apple",
 			"minecraft:item_name": {
-				"translate": "item.minecraft.glistering_melon_slice",
+				"translate": "item.kleispack.baked_golden_apple",
 				"color": "yellow"
 			},
 			"minecraft:food": {
