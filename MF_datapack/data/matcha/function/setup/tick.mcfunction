@@ -10,7 +10,7 @@ function matcha:mechanic/heart_container/detect_death
 function matcha:mechanic/manage_hunger
 function matcha:mechanic/sleeping/tick
 function matcha:mechanic/spawn_mechanic/ticking
-function matcha:mechanic/warding_stone/warding_stone
+execute as @e[type=minecraft:armor_stand,tag=WardingStone] at @s run function matcha:mechanic/warding_stone/tick
 
 function matcha:particle/beacon_kindling
 function matcha:particle/item_particles
@@ -18,7 +18,7 @@ function matcha:particle/riding_boat
 
 function matcha:stopwatches
 
-
+function matcha:update_old_items/check_trigger
 
 # Reduce cooldowns by one tick
 execute as @a if score @s AnemosCooldown matches 1.. run scoreboard players remove @s AnemosCooldown 1

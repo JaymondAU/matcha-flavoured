@@ -142,3 +142,7 @@ execute store result score current_world_settings_difficulty difficulty_score ru
 
 #Used in main/function/mechanic/intrinsic_enchants/
 scoreboard objectives add intrinsic_enchants_levels dummy
+
+# Add Trigger Scoreboard to update your old items
+scoreboard objectives add update_item trigger
+scoreboard players set #1000 update_item 1000

@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:wither_skeleton,distance=..5] run execute at @s anchored eyes positioned ^ ^ ^1 run fill ~ ~ ~ ~ ~-1 ~ air destroy
+advancement revoke @s only matcha:mechanics/enter_fortress

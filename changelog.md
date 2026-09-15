@@ -23,7 +23,7 @@ This symbol (🖌️) means the art was added by community artists (music is art
 - Wither Effect is **VERY** nasty now (Easy mode is exempt)
     * Shakudo Chestplate no longer cleanses wither
     * Please bring milk or bread to Hell, please its very important
-    * This is me prepping for an update to the wither fight, but thought in the mean-time, it might make the wither fight more interesting, lmk
+    * Wither skeleton feet stabbies won't work anymore, but you should try to do it anyways ;)
 - Crystal hearts are now "used" instead of "forced" on players, since the new death system provides enough incentive
     * They also double as cheap totems (at max hearts), and great healing items when < max health, so have fun with them
 ### Tweaks & Small Additions 
@@ -156,7 +156,6 @@ THESE ARE MY NOTES THEY AREN'T IMPORTANT BUT IM NOT PUTTING IT IN ANOTHER DOC
 - Artems fish doesn't list Lukewarm oceans (I think I messed something up)
     - Plus texture!!
 - minecraft/loot_table/gameplay/fishing/junk.json
-- Wither skeletons should break blocks to prevent feet stabbies
 - Withered Heart? (Drop from wither) Idk what that does FIGURE IT OUT! (and add it to a future update, not this one)
 
 # BUGS

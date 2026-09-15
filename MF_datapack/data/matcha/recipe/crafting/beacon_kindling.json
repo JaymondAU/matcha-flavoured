@@ -1,7 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"category": "building",
-	"group": "rooted_dirt",
 	"pattern": [
 		" o ",
 		" C ",

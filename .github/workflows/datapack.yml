@@ -21,7 +21,7 @@ jobs:
       - name: Zip MF_datapack contents
         run: |
           cd MF_datapack
-          zip -r ../MF_datapack.zip .
+          zip -qr ../MF_datapack.zip .
 
       - name: Setup Minecraft
         id: minecraft
@@ -72,7 +72,7 @@ jobs:
       - name: Zip MF_datapack contents
         run: |
           cd MF_datapack
-          zip -r ../MF_datapack.zip .
+          zip -qr ../MF_datapack.zip .
 
       - name: Setup Minecraft
         id: minecraft
