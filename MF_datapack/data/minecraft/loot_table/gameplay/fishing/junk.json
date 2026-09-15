@@ -170,7 +170,10 @@
 									"translate": "item.kleispack.axolotl"
 								},
 								"minecraft:max_stack_size": 1,
-								"minecraft:item_model": "axolotl"
+								"minecraft:item_model": "matcha:axolotl",
+								"minecraft:entity_data": {
+									"id": "minecraft:axolotl"
+								}
 							}
 						}
 					]

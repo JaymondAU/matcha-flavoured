@@ -1,2 +1,2 @@
 #Wither LT cannot be modified, I think nether star is hard-coded?   
-kill @e[type=item,predicate=matcha:in_the_end,nbt={Item:{id:"minecraft:nether_star",count:1}}]
+execute as @a if predicate matcha:wither/invalid_wither_spawn run kill @e[type=item,nbt={Item:{id:"minecraft:nether_star",count:1}}]

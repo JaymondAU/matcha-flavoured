@@ -142,7 +142,9 @@ for enchantment in enchantments.keys():
         output.write('execute if score #enchantmentLvl update_item matches 1.. run scoreboard players set #enchantmentLvl update_item 1\n')
     #raise levels
     for check in enchantments[enchantment]:
-        output.write(f'{check} run scoreboard players set #enchantmentLvl update_item {enchantments[enchantment][check]}\n')
+        level = enchantments[enchantment][check]
+        if level <= 1: continue
+        output.write(f'{check} if score #enchantmentLvl update_item matches ..{level} run scoreboard players set #enchantmentLvl update_item {level}\n')
     #store level
     output.write(f'execute if score #enchantmentLvl update_item matches 1.. store result entity @n[type=item] Item.components.minecraft:enchantments.{enchantment} int 1 run scoreboard players get #enchantmentLvl update_item\n')
 
